@@ -24,9 +24,10 @@ jobs:
       - name: Build
         run: hugo --minify
 
-      - name: Deploy
+      - name: Deploy                               
         uses: peaceiris/actions-gh-pages@v3
-        if: github.ref == 'refs/heads/master'
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          external_repository: drchristina/streams-of-thought-blog
+          publish_branch: master
+          keep_files: true
