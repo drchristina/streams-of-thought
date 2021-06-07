@@ -14,13 +14,15 @@ disqusShortname = "@disqus_8y3lc5isf0"
 # googleAnalytics = "" 
 
 # Optional params
+[params.colors]
+  fancy = "#f06292"
+
+
 [params]
   # Follow the Hugo date/time format reference here: 
   # https://gohugo.io/functions/format/#gos-layout-string
   dateFormat = "Jan 2 2006"
 
-[params.colors]
-  fancy = "#f06292"
 
 
   # Links to your social accounts, comment/uncomment as needed. Icons will be displayed for those specified.
