@@ -4,7 +4,7 @@ theme = "hugo-theme-codex"
 # Override these settings with your own
 title = "Christina's streams of thought"
 languageCode = "en-us"
-baseURL = "https://www.wayman.xyz/"
+baseURL = "wayman.xyz/"
 copyright = "© {year}"
 
 # Add your Disqus shortname here.
